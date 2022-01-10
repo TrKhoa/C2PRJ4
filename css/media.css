@@ -1,0 +1,6 @@
+.thumb-ex{max-width: 20vw}
+.thumb{max-width: 100%}
+
+@media (max-width:426px) {
+  .thumb{max-width: 95vw}
+}
