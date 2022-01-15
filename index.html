@@ -3,17 +3,19 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>báo mới</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/search.css">
+  <link rel="stylesheet" href="css/index.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" charset="utf-8"></script>
+  <!--Kết nối Database-->
   <script src="js/db.js" charset="utf-8"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+  <!--Thiết lập hiệu ứng backdrop-->
   <div class="backdrop d-none"></div>
   <div class="backdrop-2 d-none"></div>
   <div class="search-box d-none">
@@ -24,19 +26,20 @@
   </div>
   <div class="loading d-none"></div>
   <div class="container">
-  <nav class="row h1 bg-success">
-    <div class="col-11 col-sm-3 col-md-2 col-lg-2"><a>Báo mới</a></div>
-    <div class="search-btn col-1 col-sm-1 col-md-1" style="cursor:pointer">
-      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-      </svg>
-    </div>
-  </nav>
+    <!--Navbar-->
+    <nav class="row h1 bg-success">
+      <div class="col-11 col-sm-3 col-md-2 col-lg-2"><a>Báo mới</a></div>
+      <div class="search-btn col-1 col-sm-1 col-md-1" style="cursor:pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+        </svg>
+      </div>
+    </nav>
 
-  <main class="row">
-    <div class="annou h2">Tin mới:</div>
-    <div class="result"></div>
-  </main>
+    <main class="row">
+      <div class="annou h2">Tin mới:</div>
+      <div class="result"></div>
+    </main>
   </div>
   <script src="js/index.js" charset="utf-8"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

@@ -1,0 +1,1 @@
+để code chạy dc tối ưu thì mình cần chạy localhost hoặc hosting website
